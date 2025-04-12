@@ -1,6 +1,6 @@
 import sqlite3
 from getpass import getpass
-
+#new
 # Connect to SQLite3 database (creates if not exists)
 conn = sqlite3.connect("event_system.db")
 cursor = conn.cursor()
